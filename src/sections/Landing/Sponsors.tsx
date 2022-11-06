@@ -5,13 +5,26 @@ import ICET from '../../../assets/images/sponsors/ICET.png';
 
 const Sponsors = () => (
     <VStack marginInline="36px" marginBlock="72px">
-        <Heading marginBlockEnd="36px" fontSize="64px" fontFamily="Chillax" fontWeight="400">
+        <Heading
+            marginBlockEnd="36px"
+            fontSize={{
+                base: '48px',
+                md: '52px',
+            }}
+            fontFamily="Chillax"
+            fontWeight="600"
+        >
             our sponsors
         </Heading>
         <Sponsor logo={ICET} type="venue partner" />
         <Flex
             backgroundColor="rgba(190, 193, 221, 0.7)"
-            width="70vw"
+            width={{
+                base: '90vw',
+                md: '80vw',
+            }}
+            flexDirection="column"
+            rowGap="16px"
             justifyContent="space-between"
             paddingInline="36px"
             columnGap="36px"

@@ -1,20 +1,48 @@
-import { HStack, VStack, Heading, Text, Image } from '@chakra-ui/react';
 import React from 'react';
-import codingPenguin from '../../../assets/images/penguin.png';
+import { HStack, VStack, Heading, Text, Image } from '@chakra-ui/react';
+import skating from '../../../assets/images/skating.png';
 
 const Why = () => (
-    <HStack marginInline="36px">
+    <HStack
+        marginInline={{
+            base: '16px',
+            md: '32px',
+        }}
+        marginBlock="36px"
+    >
         <VStack alignItems="flex-start">
-            <Heading fontSize="64px" fontFamily="Chillax" fontWeight="400">
-                why you should hack in winter?
+            <Heading
+                fontSize={{
+                    base: '36px',
+                    md: '52px',
+                }}
+                fontFamily="Chillax"
+                fontWeight="600"
+            >
+                Be Part of this awesome journey!
             </Heading>
-            <Text textColor="#363636" fontFamily="Chillax" fontSize="36px">
+            <Text
+                textColor="#363636"
+                fontFamily="Chillax"
+                fontSize={{
+                    base: '18px',
+                    md: '36px',
+                }}
+            >
                 30K+ Prizes <br />
                 Awesome Swags <br />
                 Internship opportunities <br />
                 Sessions with industry experts
             </Text>
         </VStack>
+        <Image
+            display={{
+                base: 'none',
+                md: 'block',
+            }}
+            maxHeight="400px"
+            src={skating}
+        />
     </HStack>
 );
 export default Why;
