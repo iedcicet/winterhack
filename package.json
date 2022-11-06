@@ -15,6 +15,7 @@
     "devDependencies": {
         "@types/react": "^18.0.17",
         "@types/react-dom": "^18.0.6",
+        "@types/react-lottie": "^1.2.6",
         "@typescript-eslint/eslint-plugin": "^5.40.1",
         "@typescript-eslint/parser": "^5.40.1",
         "clean-webpack-plugin": "^4.0.0",
@@ -47,6 +48,7 @@
         "framer-motion": "^7.2.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-lottie": "^1.2.3",
         "react-router-dom": "6"
     }
 }

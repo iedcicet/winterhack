@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Chillax-Variable';
+    font-family: 'Chillax';
     src: url('../fonts/Chillax-Variable.woff2') format('woff2');
     font-weight: 200 700;
     font-display: swap;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'Chillax-Extralight';
+    font-family: 'Chillax';
     src: url('../fonts/Chillax-Extralight.woff2') format('woff2');
     font-weight: 200;
     font-display: swap;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'Chillax-Light';
+    font-family: 'Chillax';
     src: url('../fonts/Chillax-Light.woff2') format('woff2');
     font-weight: 300;
     font-display: swap;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Chillax-Regular';
+    font-family: 'Chillax';
     src: url('../fonts/Chillax-Regular.woff2') format('woff2');
     font-weight: 400;
     font-display: swap;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    font-family: 'Chillax-Medium';
+    font-family: 'Chillax';
     src: url('../fonts/Chillax-Medium.woff2') format('woff2');
     font-weight: 500;
     font-display: swap;
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: 'Chillax-Semibold';
+    font-family: 'Chillax';
     src: url('../fonts/Chillax-Semibold.woff2') format('woff2');
     font-weight: 600;
     font-display: swap;
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: 'Chillax-Bold';
+    font-family: 'Chillax';
     src: url('../fonts/Chillax-Bold.woff2') format('woff2');
     font-weight: 700;
     font-display: swap;

@@ -1,7 +1,7 @@
 import { Button, Flex, Heading, VStack, Text } from '@chakra-ui/react';
 import React from 'react';
-import { Sponsor } from '../../components';
 import ICET from '../../../assets/images/sponsors/ICET.png';
+import Sponsor from '../../components/Sponsor';
 
 const Sponsors = () => (
     <VStack marginInline="36px" marginBlock="72px">

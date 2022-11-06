@@ -21,7 +21,7 @@ const config = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'src/index.html',
-            favicon: path.resolve(__dirname, 'assets/images/favicon.svg'),
+            favicon: path.resolve(__dirname, 'assets/images/favicon.png'),
             minify: {
                 removeAttributeQuotes: true,
                 collapseWhitespace: true,
