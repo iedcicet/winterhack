@@ -35,17 +35,17 @@ const NavBar = () => (
                 md: 'flex',
             }}
         >
-            <Link href="/timeline">
+            <Link href="/">
                 <Text fontFamily="Chillax" fontSize="20px" textColor="#040204">
                     timeline
                 </Text>
             </Link>
-            <Link href="/faq">
+            <Link href="/">
                 <Text fontFamily="Chillax" fontSize="20px" textColor="#040204">
                     faq
                 </Text>
             </Link>
-            <Link href="/contact">
+            <Link href="/">
                 <Text fontFamily="Chillax" fontSize="20px" textColor="#040204">
                     contact
                 </Text>
