@@ -1,6 +1,6 @@
 {
-    "name": "react-typescript-template",
-    "description": "A template for creating a React app with TypeScript",
+    "name": "winter-hack",
+    "description": "Official Website for Winter Hack 2022",
     "version": "2.0.0",
     "scripts": {
         "build": "webpack --mode=production --node-env=production",
