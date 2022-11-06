@@ -4,6 +4,7 @@ import React from 'react';
 import Landing from './routes/Landing';
 import NavBar from './components/NavBar';
 import '../assets/css/chillax.css';
+import { Footer } from './components';
 
 const App = () => (
     <ChakraProvider>
@@ -12,6 +13,7 @@ const App = () => (
             <Routes>
                 <Route path="/" element={<Landing />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     </ChakraProvider>
 );

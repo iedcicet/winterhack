@@ -1,10 +1,23 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Image } from '@chakra-ui/react';
 import React from 'react';
+import Layout from '../layout';
+import { CTA, Sponsors, Why } from '../sections/Landing';
 import bg from '../../assets/images/bg.png';
 
 const Landing = () => (
-    <Box width="100vw" minHeight="100vh" backgroundImage={bg}>
-        <Text>Landing</Text>
-    </Box>
+    <Layout>
+        <Image
+            objectFit="cover"
+            height="100%"
+            zIndex="-2"
+            src={bg}
+            position="absolute"
+            top="1px"
+            opacity="1"
+        />
+        <CTA />
+        <Why />
+        <Sponsors />
+    </Layout>
 );
 export default Landing;

@@ -1,6 +1,7 @@
 import { Flex, HStack, Image, Text, Link } from '@chakra-ui/react';
 import React from 'react';
 import logo from '../../assets/images/logo.svg';
+import snowFlake from '../../assets/images/snowflake.png';
 
 const NavBar = () => (
     <Flex
@@ -18,7 +19,22 @@ const NavBar = () => (
         <Link href="/">
             <Image src={logo} alt="logo" height="50px" />
         </Link>
-        <HStack spacing="18px">
+        <Image
+            src={snowFlake}
+            width="50px"
+            height="50px"
+            display={{
+                base: 'block',
+                md: 'none',
+            }}
+        />
+        <HStack
+            spacing="18px"
+            display={{
+                base: 'none',
+                md: 'flex',
+            }}
+        >
             <Link href="/timeline">
                 <Text fontFamily="Chillax" fontSize="20px" textColor="#040204">
                     timeline
