@@ -1,6 +1,6 @@
 import React from 'react';
 import { HStack, VStack, Heading, Text, Image } from '@chakra-ui/react';
-import skating from '../../../assets/images/skating.png';
+import skating from '../../../assets/images/skating.webp';
 
 const Why = () => (
     <HStack

@@ -1,6 +1,6 @@
 import { HStack, Image, Text } from '@chakra-ui/react';
 import React from 'react';
-import iedcicet from '../../assets/images/IEDC_ICET.png';
+import iedcicet from '../../assets/images/IEDC_ICET.webp';
 
 const Footer = () => (
     <HStack as="footer" marginInline="36px" paddingBlock="18px" justifyContent="space-between">

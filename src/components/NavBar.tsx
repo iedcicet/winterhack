@@ -1,7 +1,7 @@
 import { Flex, HStack, Image, Text, Link } from '@chakra-ui/react';
 import React from 'react';
 import logo from '../../assets/images/logo.svg';
-import snowFlake from '../../assets/images/snowflake.png';
+import snowFlake from '../../assets/images/snowflake.webp';
 
 const NavBar = () => (
     <Flex
