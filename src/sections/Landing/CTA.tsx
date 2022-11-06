@@ -32,7 +32,7 @@ const CTA = () => (
                 marginTop: '-10px',
             }}
         >
-            A 24-hour hackathon for students to build their ideas and learn new skills.
+            melt the snow
         </Text>
         <Text fontFamily="Chillax" textColor="#040204" fontWeight="medium" fontSize="22px">
             Dec 2-4, 2022
