@@ -13,6 +13,7 @@ const Landing = () => (
             src={bg}
             position="absolute"
             top="1px"
+            alt="Background Image for winterhack"
             opacity="1"
         />
         <CTA />

@@ -23,7 +23,10 @@ const Sponsors = () => (
                 base: '90vw',
                 md: '80vw',
             }}
-            flexDirection="column"
+            flexDirection={{
+                base: 'column',
+                md: 'row',
+            }}
             rowGap="16px"
             justifyContent="space-between"
             paddingInline="36px"

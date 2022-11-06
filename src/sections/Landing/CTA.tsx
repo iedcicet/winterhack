@@ -10,7 +10,7 @@ const CTA = () => (
         }}
         marginBlockStart="50px"
     >
-        <Image maxHeight="350px" src={codingPenguin} />
+        <Image maxHeight="350px" src={codingPenguin} alt="Image of Penguin with a Laptop" />
 
         <Heading
             fontSize={{

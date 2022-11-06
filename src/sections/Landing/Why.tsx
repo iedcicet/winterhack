@@ -42,6 +42,7 @@ const Why = () => (
             }}
             maxHeight="400px"
             src={skating}
+            alt="Image of a penguin skating"
         />
     </HStack>
 );

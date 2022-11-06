@@ -10,6 +10,8 @@ const Footer = () => (
                 md: 'block',
             }}
             src={iedcicet}
+            loading="lazy"
+            alt="Image of IEDC ICET Logo"
         />
         <Text
             width="100%"
