@@ -14,7 +14,7 @@ const Why = () => (
             <Heading
                 fontSize={{
                     base: '36px',
-                    md: '52px',
+                    lg: '52px',
                 }}
                 fontFamily="Chillax"
                 fontWeight="600"
@@ -26,7 +26,7 @@ const Why = () => (
                 fontFamily="Chillax"
                 fontSize={{
                     base: '18px',
-                    md: '36px',
+                    lg: '36px',
                 }}
             >
                 30K+ Prizes <br />

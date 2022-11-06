@@ -3,7 +3,19 @@ import React from 'react';
 import iedcicet from '../../assets/images/IEDC_ICET.webp';
 
 const Footer = () => (
-    <HStack as="footer" marginInline="36px" paddingBlock="18px" justifyContent="space-between">
+    <HStack
+        as="footer"
+        width={{
+            base: '100%',
+            md: '90%',
+        }}
+        marginInline={{
+            base: '16px',
+            md: '32px',
+        }}
+        paddingBlock="18px"
+        justifyContent="space-between"
+    >
         <Image
             display={{
                 base: 'none',

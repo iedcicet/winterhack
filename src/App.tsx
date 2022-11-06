@@ -8,7 +8,7 @@ const Landing = React.lazy(() =>
     Promise.all([
         import('./routes/Landing'),
         // eslint-disable-next-line no-promise-executor-return
-        new Promise((resolve) => setTimeout(resolve, 1000)),
+        new Promise((resolve) => setTimeout(resolve, 2000)),
     ]).then(([moduleExports]) => moduleExports),
 );
 

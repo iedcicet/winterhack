@@ -9,6 +9,7 @@ const defaultOptions = {
     animationData,
     rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice',
+        autoReverse: true,
     },
 };
 const Loading = () => (
