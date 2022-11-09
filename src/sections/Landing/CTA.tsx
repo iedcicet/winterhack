@@ -35,7 +35,7 @@ const CTA = () => (
             melt the snow
         </Text>
         <Text fontFamily="Chillax" textColor="#040204" fontWeight="medium" fontSize="22px">
-            Dec 2-4, 2022
+            Dec 2-3, 2022
         </Text>
         <Button
             width="200px"
