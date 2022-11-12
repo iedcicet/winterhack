@@ -2,7 +2,7 @@ import { Image } from '@chakra-ui/react';
 import React from 'react';
 import Layout from '../layout';
 import { CTA, Sponsors, Why } from '../sections/Landing';
-import bg from '../../assets/images/bg.webp';
+import bg from '../../assets/images/bg.png';
 
 const Landing = () => (
     <Layout>

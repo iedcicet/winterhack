@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Button, Text, Image, VStack } from '@chakra-ui/react';
-import codingPenguin from '../../../assets/images/penguin.webp';
+import codingPenguin from '../../../assets/images/penguin.png';
 
 const CTA = () => (
     <VStack

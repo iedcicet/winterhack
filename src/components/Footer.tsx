@@ -33,16 +33,6 @@ const Footer = () => (
         >
             © 2022 IEDC ICET. All rights reserved
         </Text>
-        <Text
-            fontSize="18px"
-            fontFamily="Chillax"
-            display={{
-                base: 'none',
-                md: 'block',
-            }}
-        >
-            Made with ❤️ by IEDC ICET
-        </Text>
     </HStack>
 );
 

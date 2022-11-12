@@ -1,7 +1,9 @@
 import { Button, Flex, Heading, VStack, Text } from '@chakra-ui/react';
+import fileDownload from 'js-file-download';
 import React from 'react';
 import ICET from '../../../assets/images/sponsors/ICET.png';
 import Sponsor from '../../components/Sponsor';
+import brochure from '../../../assets/pdf/Brochure.pdf';
 
 const Sponsors = () => (
     <VStack marginInline="36px" marginBlock="72px">
@@ -41,7 +43,11 @@ const Sponsors = () => (
             <Heading fontFamily="Chillax" fontSize="36px" fontWeight="400">
                 be a sponsor
             </Heading>
-            <Button width="250px" height="50px">
+            <Button
+                width="250px"
+                height="50px"
+                onClick={() => fileDownload(brochure, 'SponsorshipBrochure.pdf')}
+            >
                 <Text fontFamily="Chillax" fontSize="18px" fontWeight="semibold">
                     Sponsorship Brochure
                 </Text>
