@@ -29,7 +29,10 @@ const Footer = () => (
             width="100%"
             fontSize={{ base: '14px', md: '18px' }}
             fontFamily="Chillax"
-            textAlign="center"
+            textAlign={{
+                base: 'center',
+                md: 'right',
+            }}
         >
             © 2022 IEDC ICET. All rights reserved
         </Text>
