@@ -1,5 +1,4 @@
 import { Button, Flex, Heading, VStack, Text } from '@chakra-ui/react';
-import fileDownload from 'js-file-download';
 import React from 'react';
 import ICET from '../../../assets/images/sponsors/ICET.png';
 import Sponsor from '../../components/Sponsor';
@@ -46,7 +45,17 @@ const Sponsors = () => (
             <Button
                 width="250px"
                 height="50px"
-                onClick={() => fileDownload(brochure, 'SponsorshipBrochure.pdf')}
+                onClick={() =>
+                    fetch(brochure).then((response) => {
+                        response.blob().then((blob) => {
+                            const fileURL = window.URL.createObjectURL(blob);
+                            const alink = document.createElement('a');
+                            alink.href = fileURL;
+                            alink.download = 'Brochure.pdf';
+                            alink.click();
+                        });
+                    })
+                }
             >
                 <Text fontFamily="Chillax" fontSize="18px" fontWeight="semibold">
                     Sponsorship Brochure

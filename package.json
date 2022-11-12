@@ -46,7 +46,6 @@
         "@emotion/react": "^11.10.0",
         "@emotion/styled": "^11.10.0",
         "framer-motion": "^7.2.0",
-        "js-file-download": "^0.4.12",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-lottie": "^1.2.3",
